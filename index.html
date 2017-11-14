@@ -3,15 +3,15 @@
 	<head>
 		<meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 		<title>首页</title>
-        <script src="js/jquery.js"></script> 
-        <script src="js/uikit.min.js"></script>
-        <script src="js/docs.js"></script> 
-        <link id="data-uikit-theme" rel="stylesheet" href="css/uikit.docs.min.css">
-        <link rel="stylesheet" href="css/docs.css">
-        <link rel="stylesheet" href="css/index.css">
-        <link rel="stylesheet" href="css/common.css">
+        <script src="./js/jquery.js"></script>
+        <script src="./js/uikit.min.js"></script>
+        <script src="./js/docs.js"></script> 
+        <link id="data-uikit-theme" rel="stylesheet" href="./css/uikit.docs.min.css">
+        <link rel="stylesheet" href="./css/docs.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/common.css">
 	</head>
 	<body>
 		<!-- 头部 -->
@@ -21,14 +21,122 @@
                 <div class="uk-navbar-brand uk-navbar-center uk-visible-small"><img src="img/index/tit.png" width="110" height="40" title="kefida" alt="kefida"></div>
             </div>
         </nav>
-
-
-
-
-
-
-
-
+       <!-- banner轮播 -->
+       <li><img src="img/index/banner9.jpg" class="img-res"></li>
+       <div class="container">
+       		<h2 class="uk-text-center b-ti"><i>产品中心</i></h2>
+		    <!-- 这是包含拨动元素的容器 -->
+			<ul data-uk-switcher="{connect:'#cp'}" class="cp-tit">
+			    <li><a href="">破碎设备</a></li>
+			    <li><a href="">磨粉设备</a></li>
+			    <li><a href="">筛洗设备</a></li>
+			    <li><a href="">移动破碎</a></li>
+			</ul>
+			<!-- 这是内容项目的容器 -->
+			<ul id="cp" class="uk-switcher cp-con">
+			    <li class="uk-grid-small">
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/c6x.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">C6X颚式破碎机</p>
+				    </div>
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/ci5x.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">ci5x反击式破碎机</p>
+				    </div>
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/cs.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">cs圆锥破碎机</p>
+				    </div>
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/ep.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">颚式破碎机</p>
+				    </div>
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/hpt.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">HPT颚式破碎机</p>
+				    </div>
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/visi6x.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">VSI6S颚式破碎机</p>
+				    </div>
+			    </li>
+			    <li class="uk-grid-small">
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/mb5x.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">MB5X摆式悬辊磨</p>
+				    </div>
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/vm.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">VM立式磨</p>
+				    </div>
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/mtw.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">MTW系列欧式磨</p>
+				    </div>
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/mw.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">MW超细磨</p>
+				    </div>
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/lmm.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">雷蒙磨</p>
+				    </div>
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/qm.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">球磨</p>
+				    </div>
+			    </li>
+			    <li class="uk-grid-small">
+					<div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/zds.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">振动筛</p>
+				    </div>
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/xsj.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">轮式洗砂机</p>
+				    </div>
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/gl.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">振动给料机</p>
+				    </div>
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/ss.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">皮带输送机</p>
+				    </div>
+			    </li>
+			    <li class="uk-grid-small">
+					<div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/csyd.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">粗碎移动站</p>
+				    </div>
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/dlyd.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">独立作业组合移动站</p>
+				    </div>
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/xsyd.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">细碎洗砂移动站</p>
+				    </div>
+				    <div class="uk-width-1-2 cp-ps">
+				    	<a href=""><img src="img/index/zhyd.jpg" class="img-res"></a>
+				    	<p class="uk-text-center">四组合移动站</p>
+				    </div>
+			    </li>
+			</ul>
+			<h2 class="uk-text-center b-ti"><i><a href="">专题报道</a></i></h2>
+			<div class="ne-bg uk-width-1-1">
+				<h3 class="uk-text-center"><a href="http://www.kefeida.com/News/special/mining.html">矿山开采整体解决方案</a></h3>
+				<img src="img/index/mtw2.jpg" class="img-res">
+				<p class="ne-p">矿山包括煤矿、金属矿、非金属矿、建材矿和化学矿等，而矿山开采是指通过合理的开采手段，经过人力或者机械对有利用价值的天然矿物资源进行加工处理，包含金属矿的破碎、选矿、磨粉以及非金属矿的破碎和磨粉。现如今，随着各类矿山资源的日渐枯竭，矿山开采技术已由原始的粗犷模式转变为精细模式，逐步做到有效开采、精细破碎。那么，如何有效的对各种矿石进行加工处理，迅速提高其自身价值呢？<br>
+				<a href="http://www.kefeida.com/News/special/mining.html" class="ne-a">查看更多+</a></p>
+			</div>
+			<h2 class="uk-text-center b-ti"><i>企业实力</i></h2>
+			<div class="ne-bg uk-width-1-1 sl-mb">
+				<img src="img/index/shili.jpg" class="img-res">
+				<p class="text-indent">郑州科菲达机械工业科技有限公司是一家具有国际领先水平的专业从事研发、制造和销售大型破碎筛分设备、工业磨粉设备、选矿设备的大型骨干企业。</p>
+				<p class="text-indent">我们坚持和国际先进技术交流和合作，积极引进德国、瑞典、芬兰等国的先进技术，并加以消化吸收，不断提高我们的产品品质。我们坚持“合作共赢，为客户创造更多价值”的服务理念，与时俱进，坚持创新，为客户提供更高品质的产品，更快捷的全球化服务和更先进的技术支持。</p>
+			</div>
+       </div>
 
 	<!-- 底部导航 -->
 		<div class="dbdh">
@@ -46,13 +154,11 @@
 	        	<p><a href="index.html">首页</a></p>
 	        	<p><a href="product.html">产品中心</a></p>
 	        	<p><a href="case.html">案例中心</a></p>
-	        	<p><a href="new.html">新闻中心</a></p>
+	        	<p><a href="new.html">专题报道</a></p>
 	        	<p><a href="about.html">关于我们</a></p>
 	        	<p><a href="contact.html">联系我们</a></p>
 	        </div>
 	    </div>
 	</div>
-	
 	</body>
-
 </html>

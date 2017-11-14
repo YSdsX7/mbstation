@@ -1,11 +1,13 @@
-.tm-navbar{background:#10f7ef;padding:10px 0;}
-.uk-offcanvas-bar{background:#aff4f0;}
-
-
-
-
-
-
+.b-ti{color:#666;margin-bottom:15px;margin-top:15px;}
+.cp-tit li{width: 25%;float:left;margin-bottom:20px;}
+.cp-tit li a{color:#666;font-size:16px;background:#58f7ed;border-radius:30%;padding:8px;}
+.cp-ps{float:left;}
+.ne-bg{background:#f8f8f8;padding:15px 0;}
+.ne-bg a{color:#666;font-weight:bold;}
+.ne-p{text-indent:2em;padding:5px 10px;line-height:2em;}
+.ne-a{color:#666;float:right;display:block;padding-right:15px;}
+.b-ti a{color:#666;}
+.sl-mb{margin-bottom:65px;}
 
 
 

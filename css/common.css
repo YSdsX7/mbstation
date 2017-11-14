@@ -1,14 +1,21 @@
-.tm-navbar{background:#10f7ef;padding:10px 0;}
+.tm-navbar{background:#fff;padding:10px 0;}
 .uk-offcanvas-bar{background:#777;}
 .uk-offcanvas .cel{margin:25px 30px;}
 .uk-offcanvas .cel p a{color:#fff;}
+li{list-style:none;}
+ul{padding-left:15px;}
+body{background:url(../img/index/bg.jpg);font-size: 16px;}
+.container{padding:0 10px;overflow: hidden;box-sizing: border-box;}
+.text-indent{text-indent: 2em;line-height:2em;}
 /* 底部 */
-.dbdh{display: block; width: 100%;position: fixed;bottom: 0;background:#10d5ce;}
+.dbdh{display:block; width: 100%;position: fixed;bottom: 0;background:#666;}
 .dbdh ul{padding-left: 0;}
 .dbdh ul li{width: 25%;height: auto;float: left;list-style: none;}
 .dbdh ul li a{display: block;text-align: center;padding: 5px;color:#fff; }
 .dbdh ul li a p{line-height: 30px;margin-bottom: 0;margin-top:0;}
 .dbdh ul li a img{display: inline-block;}
+/* banner */
+.img-res{max-width:100%;width:100%;}
 
 
 
@@ -19,9 +26,9 @@
 
 
 
-
-
-
+@media(min-width: 768px){
+	.tm-navbar .uk-navbar-brand,.uk-visible-small{display:block!important;}
+}
 
 
 
